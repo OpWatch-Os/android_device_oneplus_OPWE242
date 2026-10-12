@@ -29,7 +29,8 @@ The public AOSP baseline is `android-17.0.0_r1`, manifest commit
 `5bc9a7ce1cd78dd53613bbfd0ebf506e1e4adb0f`. AOSP is only part of the system:
 Wear integration, OEM MCU/sensor hub contracts, graphics, init, SELinux,
 VINTF, linker namespaces and image packaging remain to be developed and
-verified. Public source metadata is in `hardware.json`.
+verified. Public source metadata is in `hardware.json`; the concrete work
+items are tracked in [integration-checklist.md](docs/integration-checklist.md).
 
 Use a Linux build host with a case-sensitive filesystem, POSIX permissions
 and symbolic links. The upstream kernel contains filenames that differ only
