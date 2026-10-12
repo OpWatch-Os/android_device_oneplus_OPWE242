@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "device": {
+    "model": "OPWE242",
+    "name": "OnePlus Watch 3 43 mm",
+    "hardware": "XK935",
+    "project_id": "24968"
+  },
+  "observed_stock": {
+    "build": "OPWE242_11_A.165",
+    "android_api": 34,
+    "kernel": "5.15.185-android14-11",
+    "kernel_architecture": "arm64",
+    "kernel_compat_enabled": true,
+    "kernel_page_size_bytes": 4096,
+    "reported_userspace_abis": [
+      "armeabi-v7a",
+      "armeabi"
+    ],
+    "acquired_vendor_ELF_sample_architecture": "ARM32",
+    "sample_is_not_complete_vendor_inventory": true
+  },
+  "proposed_target": {
+    "android_release": "android-17.0.0_r1",
+    "requested_Wear_OS": "7",
+    "primary_architecture": "arm64",
+    "secondary_architecture": "arm",
+    "secondary_ABIs": [
+      "armeabi-v7a",
+      "armeabi"
+    ],
+    "graphics_compatibility_verified": false,
+    "kernel_page_size_in_target_not_yet_validated": true
+  },
+  "source_pins": {
+    "kernel": {
+      "upstream": "https://github.com/OnePlusOSS/android_kernel_oneplus_sw5100",
+      "branch": "sw5100_wear_os_5.0_oneplus_watch_3_43mm",
+      "commit": "824c7022b19eabb6c0831924da134725e6068e40",
+      "version": "5.15.167 / A.123"
+    },
+    "modules_and_devicetree": {
+      "upstream": "https://github.com/OnePlusOSS/android_kernel_modules_and_devicetree_oneplus_sw5100",
+      "branch": "sw5100_wear_os_5.0_oneplus_watch_3_43mm",
+      "commit": "024d4ff6705d3d00256a3af32b25cc22ccde0782"
+    },
+    "aosp_manifest": {
+      "upstream": "https://android.googlesource.com/platform/manifest",
+      "release": "android-17.0.0_r1",
+      "commit": "5bc9a7ce1cd78dd53613bbfd0ebf506e1e4adb0f"
+    }
+  },
+  "build_host": {
+    "required_OS": "Linux",
+    "case_sensitive_filesystem": true,
+    "POSIX_permissions": true,
+    "symbolic_links": true
+  },
+  "status": {
+    "complete_device_configuration": false,
+    "build_verified": false,
+    "boot_verified": false,
+    "AVB_or_partition_geometry_defined": false,
+    "flashable_release": false
+  }
+}
